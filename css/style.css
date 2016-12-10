@@ -41,13 +41,42 @@ a:hover {
   color: #ff292d;
 }
 
-table {
+table.menu {
   text-align:left;
-  margin-top: 8em;
+  margin-top: 6em;
   margin-right: 9em;
   margin-left: 3em;
   /*border: 1px solid #000*/
 
+}
+
+table.works {
+  margin: auto;
+  width: 75%;
+  padding-bottom: 1em;
+
+
+}
+
+blockquote.works {
+  font-size: 2.3em;
+}
+
+td p {
+  font-size: .5em;
+  /*text-align: justify;*/
+
+}
+
+table #works {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+img.works {
+  width: 90%;
+  margin-bottom: .4em;
+  margin-top: 0;
 }
 
 td {
@@ -70,6 +99,7 @@ h2 {
   font-size: 3em;
   margin-left: 2em;
   margin-top: .5em;
+  padding-bottom: .2em;
 }
 
 p {
@@ -92,3 +122,35 @@ article.education {
 article.works {
   background-color: white;
 }
+
+article.conclusion {
+  background-color: white;
+}
+
+article.awards {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.7em;
+}
+
+article.awards h2 {
+  text-align: center;
+  margin-left: 0;
+}
+
+blockquote{
+  text-align: center;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 1.75em;
+  line-height: 1.4em;
+}
+
+blockquote cite{
+  font-size: .75em;
+}
+
+blockquote p{
+  color: #777;
+  hanging-punctuation: first;
+  text-indent: -0.5em;
