@@ -125,6 +125,8 @@ article.works {
 
 article.conclusion {
   background-color: white;
+  margin-bottom: 0;
+  padding-bottom: 2em;
 }
 
 article.awards {
@@ -136,6 +138,19 @@ article.awards {
 article.awards h2 {
   text-align: center;
   margin-left: 0;
+}
+
+article.bibliography {
+  background-image: url(../images/down-arrow.gif);
+  background-repeat: no-repeat;
+  background-position: top;
+  position: absolute;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+article.bibliography h2 {
+  margin-top: 2em;
 }
 
 blockquote{
@@ -154,3 +169,22 @@ blockquote p{
   color: #777;
   hanging-punctuation: first;
   text-indent: -0.5em;
+}
+
+.slant {
+
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.contact {
+  padding-top: 40em;
+  padding-bottom: .7em;
+  text-align: center;
+}
+
+.contact p {
+  font-family: 'Heebo';
+  line-height: .4em;
+  font-size: 1.3em;
+}
