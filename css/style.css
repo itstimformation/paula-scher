@@ -185,6 +185,6 @@ blockquote p{
 
 .contact p {
   font-family: 'Heebo';
-  line-height: .4em;
+  line-height: 0;
   font-size: 1.3em;
 }
