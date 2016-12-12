@@ -193,3 +193,35 @@ footer img {
   padding-top: .4em;
   padding-left: 1em;
 }
+
+/*-------------- MOBILE ----------------------*/
+
+@media (max-width: 35em) {
+
+article.bibliography p {
+  width: 75%;
+  margin: auto;
+  padding-top: .7em;
+}
+
+article.bibliography span {
+  font-size: .6em;
+  line-height: .1em;
+}
+
+article.bibliography h2 {
+  margin-left: 1em;
+}
+
+footer {
+  padding-top: 37em;
+}
+article.contact span {
+  font-size: .7em;
+}
+
+.landing {
+  background-color: #fef200;
+}
+
+}
