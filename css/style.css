@@ -140,6 +140,10 @@ article.awards h2 {
   margin-left: 0;
 }
 
+article.awards h4 {
+  line-height: 1.5em;
+}
+
 article.bibliography {
   background-image: url(../images/down-arrow.gif);
   background-repeat: no-repeat;
@@ -194,6 +198,16 @@ footer img {
   padding-left: 1em;
 }
 
+/*-------------- DESKTOP ---------------------*/
+
+@media (min-width: 750px) {
+
+.title {
+  display: none;
+}
+
+}
+
 /*-------------- MOBILE ----------------------*/
 
 @media (max-width: 35em) {
@@ -222,6 +236,20 @@ article.contact span {
 
 .landing {
   background-image: none;
+}
+
+.title {
+  width:25em;
+  margin-left: -2em;
+}
+
+table.menu {
+  margin: auto;
+}
+
+header {
+  padding-bottom: 6em;
+  width: auto;
 }
 
 }
