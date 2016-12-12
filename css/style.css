@@ -193,9 +193,33 @@ blockquote p{
   font-size: 1.3em;
 }
 
+p.email {
+  margin-bottom: .3em;
+}
+
+p.uub {
+  margin-top: .1em;
+}
+
 footer img {
   padding-top: .4em;
   padding-left: 1em;
+}
+
+#tumblr:hover {
+  <img src: url(../images/tumblr-black.png)>;
+}
+
+#github:hover {
+  <img src: url(../images/github-black.png)>;
+}
+
+#instagram:hover {
+  <img src: url(../images/instagram-black.png)>;
+}
+
+#twitter:hover {
+  /*<img src: url(../images/twitter-black.png)>;*/
 }
 
 /*-------------- DESKTOP ---------------------*/
