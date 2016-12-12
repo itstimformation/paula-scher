@@ -188,3 +188,8 @@ blockquote p{
   line-height: 0;
   font-size: 1.3em;
 }
+
+footer img {
+  padding-top: .4em;
+  padding-left: 1em;
+}
